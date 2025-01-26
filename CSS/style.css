@@ -354,6 +354,12 @@ header .search i {
   padding: 10px 20px;
   text-align: center;
 }
+@media (max-width:767px) {
+  .portfolio ul li {
+    padding: 10px 10px;
+    text-align: center;
+  }
+}
 .portfolio ul :first-child {
   background-color: var(--main-color);
   color: white;
