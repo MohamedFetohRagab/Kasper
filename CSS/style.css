@@ -40,6 +40,14 @@ ul {
   line-height: 2;
   color: #777;
 }
+@media (max-width:767px) {
+  .main-heading {
+    padding: 50px;
+  }
+  .main-heading h2{
+    font-size: 30px;
+  }
+}
 .main-heading h2::before {
   content: "";
   height: 2px;
